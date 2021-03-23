@@ -1,0 +1,4 @@
+StepDefinitions\GenericSteps.class
+StepDefinitions\SignUpPageStepDefination.class
+Base\BaseTest.class
+runner\TestRunner.class

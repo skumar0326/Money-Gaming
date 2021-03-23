@@ -1,0 +1,259 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 28049000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on Sign-Up page",
+            "match": {
+              "location": "StepDefinitions.SignUpPageStepDefination.user_is_on_sign_up_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-23T08:48:04.200Z",
+        "before": [
+          {
+            "result": {
+              "duration": 124000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.GenericSteps.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Sign-Up page title",
+        "description": "",
+        "id": "signup-page-feature;sign-up-page-title",
+        "after": [
+          {
+            "result": {
+              "duration": 1309000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.GenericSteps.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user gets the title of the page",
+            "match": {
+              "location": "StepDefinitions.SignUpPageStepDefination.user_gets_the_title_of_the_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "page title should be \"Play Online Casino Games Now | MoneyGaming.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Play Online Casino Games Now | MoneyGaming.com\"",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinitions.SignUpPageStepDefination.page_title_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 25371000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on Sign-Up page",
+            "match": {
+              "location": "StepDefinitions.SignUpPageStepDefination.user_is_on_sign_up_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-23T08:48:33.908Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.GenericSteps.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Signing-up and validating",
+        "description": "",
+        "id": "signup-page-feature;signing-up-and-validating",
+        "after": [
+          {
+            "result": {
+              "duration": 1265000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.GenericSteps.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21557000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Clicks on JOIN NOW! button",
+            "match": {
+              "location": "StepDefinitions.SignUpPageStepDefination.clicks_on_join_now_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 178000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user selects \"Mr\" from dropdown for Title field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mr\"",
+                  "offset": 13
+                }
+              ],
+              "location": "StepDefinitions.SignUpPageStepDefination.user_selects_from_dropdown_for_title_field(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 173000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enters \"firstname\"  in FirstName field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"firstname\"",
+                  "offset": 12
+                }
+              ],
+              "location": "StepDefinitions.SignUpPageStepDefination.user_enters_in_first_name_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 122000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enters \"surname\" in SurName field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"surname\"",
+                  "offset": 12
+                }
+              ],
+              "location": "StepDefinitions.SignUpPageStepDefination.user_enters_in_sur_name_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user checks the terms and conditions",
+            "match": {
+              "location": "StepDefinitions.SignUpPageStepDefination.user_checks_the_terms_and_conditions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 121000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user submits the form by clicking on JOIN NOW! button below",
+            "match": {
+              "location": "StepDefinitions.SignUpPageStepDefination.user_submits_the_form_by_clicking_on_join_now_button_below()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 46000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "message appears  \"This field is required\" under the date of  birth box field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"This field is required\"",
+                  "offset": 17
+                }
+              ],
+              "location": "StepDefinitions.SignUpPageStepDefination.message_appears_under_the_date_of_birth_box_field(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "SignUp page feature",
+    "description": "",
+    "id": "signup-page-feature",
+    "keyword": "Feature",
+    "uri": "file:Features/SignUpPage.feature",
+    "tags": []
+  }
+]
